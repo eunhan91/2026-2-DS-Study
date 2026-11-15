@@ -16,11 +16,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct mafia{
-    vector<mafia*> people;
-    string name = "";
-};
-
 void input(int& N, vector<string>& order, map<string, vector<string>>& mafia_relation, map<string, string>& person_boss){
     cin >> N;
     for (int i = 1; i < N; i++){
